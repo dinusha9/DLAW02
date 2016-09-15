@@ -17,3 +17,5 @@ clustering/  top level for clustering
 ```
 
 I've created an empty project in `DLAW02/clustering/particpants/HRDAG` that gives a sense of how HRDAG structures data projects. More details are available in [this blog post](https://hrdag.org/2016/06/14/the-task-is-a-quantum-of-workflow/).
+
+In particular, it would be useful if in your participant directory, you included a subdirectory called `output/` in which you report a file mapping record identifiers to cluster labels (perhaps called `output/labels.csv`). This will facilitate us grouping the results.

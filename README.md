@@ -10,5 +10,7 @@ blocking/ top level for blocking
 	needs/  documents (LaTeX, markdown, docx) describing participants' needs for blocking approaches
 	reccs/  working area for recommendations
 
-clustering/
+clustering/  top level for clustering
+    papers/ papers relevant to clustering
+	data/  the data for the clustering experiment
 ```

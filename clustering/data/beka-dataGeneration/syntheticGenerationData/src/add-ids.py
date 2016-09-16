@@ -21,6 +21,6 @@ esd['id'] = esd.index
 cols = ['id']  + [col for col in esd if col != 'id']
 esd = esd[cols]
 
-esd.to_csv(output_path, sep="|", index=False)
+esd.to_csv(output_path, sep=",", index=False)
 
 print("done.")
